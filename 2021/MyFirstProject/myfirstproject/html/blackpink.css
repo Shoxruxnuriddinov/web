@@ -1,0 +1,127 @@
+body,
+h1,
+h2,
+h3,
+ul,
+p,
+nav,
+ol,
+a {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: black;
+    border-bottom: 5px solid deeppink;
+}
+#header h1 {
+    text-align: -webkit-right;
+    color: deeppink;
+    padding: 28px;
+    font-family: sans-serif, Algerian;
+    display: inline-block;
+    margin-left: 50px;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline;
+    margin-left: 1px;
+}
+.navbar li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 40px 20px;
+    display: inline-block;
+    color: red;
+}
+.navbar li a :hover {
+    color: blue;
+    font-size: 20px;
+}
+a {
+    float: left;
+}
+#banner {
+    height: 60vh;
+    background-image: url("../img/wp4093989.png");
+    background-size: cover;
+    background-position: center -180px;
+    border-bottom: 5px solid deeppink;
+}
+.nav {
+    width: 100%;
+    margin: auto;
+    height: 8vh;
+    background-color: black;
+    border-bottom: 5px solid deeppink;
+}
+.ap {
+    display: inline-block;
+    margin-left: 250px;
+}
+.ap li {
+    display: inline;
+}
+.ap li a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    padding: 25px 15px;
+    color: deeppink;
+}
+.ap li a:hover {
+    color: cyan;
+}
+.ap {
+    float: inside;
+}
+#follow {
+    height: 8vh;
+    background-color: black;
+    border-bottom: 5px solid deeppink;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+}
+.left {
+    text-decoration: none;
+    float: left;
+    color: deeppink;
+    padding: 20px 250px;
+}
+.right {
+    margin-left: 50px;
+    float: right;
+    padding: 20px;
+}
+#follow input {
+    padding: 5px;
+    border: none;
+}
+#follow button {
+    padding: 5px;
+    background-color: deeppink;
+    border: none;
+    margin-left: 15px;
+}
+#courses {
+    background-color: black;
+    padding: 1px;
+    border-bottom: 5px solid;
+    color: deeppink;
+}
+.box {
+    margin-left: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.box img {
+    width: 90px;
+    max-width: 100px;
+    display: inline-block;
+    padding: 1px 50px;
+    color: #000;
+}
